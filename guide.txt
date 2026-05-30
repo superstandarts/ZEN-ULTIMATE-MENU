@@ -1,37 +1,108 @@
-ZEN ULTIMATE MENU - QUICK GUIDE
-===============================
+ZEN ULTIMATE MENU - FINAL USABLE BUILD
+=====================================
 
-Requirements:
-- Windows 10 or Windows 11
-- Keep config.json in the same folder as the .exe
-- Discord desktop app open for Discord Auto Status
-- Spotify Developer credentials only if you want Spotify music sync
-- Run as Administrator if hotkeys, text expander, or auto-clicker do not work
+Icon:
+assets/icons/app.ico
 
-Discord + Spotify:
-- Set discord.client_id in config.json
-- To enable Spotify sync, set discord.spotify.enabled to true
-- Add your Spotify client_id and client_secret
-- Redirect URI must be: http://127.0.0.1:8888/callback
+Banners:
+assets/banners/zen_banner.png
+assets/banners/discord_banner.png
 
-Folder structure:
-ZEN ULTIMATE MENU/
-├─ ZEN ULTIMATE MENU.exe
-├─ config.json
-└─ README.txt
+Keep next to EXE:
+config.json
+assets/
+plugins/
+CHANGELOG.md
+README.txt
 
-If Spotify is playing:
-- Discord shows the current song
-- If synced lyrics are found, it shows the current lyric line
-- If lyrics are not found, it shows the song timer
+Fix note:
+- Dashboard now uses a custom vertical-only scroll area to remove the bottom horizontal bar.
 
-If Spotify is not playing:
-- Discord Auto Status uses app detection
+Fix note 2:
+- Dashboard mouse wheel no longer steals scrolling from the left menu.
+- Left menu scrolls with mouse wheel again.
+- Dashboard card columns are more conservative on 1366x768 to avoid horizontal overflow.
 
-Contact:
-Discord: 7mey
-GitHub: https://github.com/superstandarts
+Final scroll fix:
+- Dashboard no longer uses any scrollable canvas, so the bottom bar is removed completely.
+- Dashboard now uses pages with Previous/Next.
+- Left sidebar mouse wheel works anywhere inside the sidebar.
 
-Use responsibly.
 
-If any change is made to the code, the responsibility for it its from the user.
+Final fit fix:
+- Window now opens smaller and safer on 1366x768 screens.
+- Dashboard buttons moved to the top so they cannot go below the screen.
+- Dashboard page size adapts to window height.
+- Cards are more compact.
+- Sidebar mouse wheel is faster and works over the sidebar buttons too.
+
+Critical fix:
+- Restored missing UI helper methods: card(), button(), textbox().
+- Fixes AttributeError card/button on startup.
+
+
+Plugin Pack Added:
+- 15 ready-to-use plugin folders were added under plugins/.
+- Use the Plugins page to list and run them.
+
+
+Inviting UI Update:
+- Darker Cyber Black UI.
+- Dashboard hero banner using assets/banners/zen_banner.png.
+- Internal toast notifications.
+- UI sounds added: click, success, error, notification.
+- Dashboard Simple/Advanced mode.
+- Module search.
+- Command Palette.
+- Setup Wizard.
+- Help Center.
+- Appearance Studio.
+- Plugin Store cards.
+- What's New page.
+- Status cards for FFmpeg, Git, Ollama and Spotify.
+- Focus View.
+
+
+ZEN MENU UX MAJOR UPDATE
+========================
+
+Requested UX/features added:
+- App name changed to ZEN MENU.
+- Darker Cyber Black / terminal UI.
+- Fade-in intro before loading screen.
+- Intro uses banner + "Thanks for using CRX!" with startup sound.
+- Hacker/terminal font style for intro.
+- Square terminal-style loading frame.
+- Assistant/Command experience via Command Palette.
+- Module search and Global Search.
+- Plugin Store visual page.
+- Plugin categories/permissions style foundations.
+- Quick setup cards/checklist.
+- Setup progress/checklist.
+- Config Profiles.
+- Macro Builder.
+- Visual Flow Builder.
+- Mini Apps.
+- Game Overlay.
+- Theme Preview.
+- Soundboard.
+- Soundboard mic note: to play through microphone apps, install VB-CABLE, set Windows output to CABLE Input and Discord/input to CABLE Output.
+- Level System.
+- Usage Heatmap.
+- Time Tracker.
+- Text Transformer.
+- Help Center.
+- Appearance Studio.
+- Focus View.
+- Status cards: FFmpeg/Git/Ollama/Spotify.
+- Internal toast notifications with your uploaded sounds.
+
+Sounds:
+assets/sounds/click.wav
+assets/sounds/success.wav
+assets/sounds/error.wav
+assets/sounds/notification.wav
+
+Banners:
+assets/banners/zen_banner.png
+assets/banners/discord_banner.png
