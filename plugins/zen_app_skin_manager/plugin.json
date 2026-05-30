@@ -1,0 +1,8 @@
+{
+  "name": "ZEN App Skin Manager",
+  "entry": "main.py",
+  "description": "Swap logo, icon, banner and startup sound assets.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

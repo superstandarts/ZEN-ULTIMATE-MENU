@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Wallpaper Changer",
+  "entry": "main.py",
+  "description": "Change Windows wallpaper and manage favorite wallpaper folders.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

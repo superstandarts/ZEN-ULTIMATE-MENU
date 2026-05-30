@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Sound Pack Installer",
+  "entry": "main.py",
+  "description": "Replace startup sound and manage ZEN sound assets.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

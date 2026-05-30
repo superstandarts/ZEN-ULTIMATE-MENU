@@ -1,10 +1,10 @@
 {
   "_quick_settings": {
     "discord_enabled": true,
-    "discord_client_id": "YOUR_APPLICATION_ID",
+    "discord_client_id": "YOUR_DISC_APP_ID",
     "spotify_enabled": true,
-    "spotify_client_id": "SPOTIFY_APPLICATION_ID",
-    "spotify_client_secret": "SPOTIFY_APPLICATION_SECRET_ID",
+    "spotify_client_id": "YOUR_SPOTIFY_APP_ID",
+    "spotify_client_secret": "YOUR_SPOT_SECRET_ID",
     "spotify_redirect_uri": "http://127.0.0.1:8888/callback",
     "theme_mode": "Windows 11 Dark",
     "theme_accent": "#ff003c",
@@ -27,7 +27,7 @@
   },
   "discord": {
     "enabled": true,
-    "client_id": "YOUR_APPLICATION_CLIENT_ID",
+    "client_id": "1510152963887206502",
     "update_interval": 8,
     "idle": {
       "details": "ZEN ULTIMATE MENU",
@@ -71,8 +71,8 @@
     "spotify_priority": true,
     "spotify": {
       "enabled": true,
-      "client_id": "YOUR_SPOTIFY_APPLICATION_CLIENT_ID",
-      "client_secret": "YOUR_SPOTIFY_APPLICATION_CLIENT_SECRET_ID",
+      "client_id": "YOUR_SPOTIFY_APP_ID",
+      "client_secret": "YOUR_SPOT_SECRET_ID",
       "redirect_uri": "http://127.0.0.1:8888/callback",
       "show_lyrics": true,
       "fallback_if_no_lyrics": true

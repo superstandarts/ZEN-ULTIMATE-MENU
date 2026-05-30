@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Browser Cleaner",
+  "entry": "main.py",
+  "description": "Clear cache folders for Chrome, Edge and Opera/Opera GX.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

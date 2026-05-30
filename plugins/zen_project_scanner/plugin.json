@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Project Scanner",
+  "entry": "main.py",
+  "description": "Scan a project for files, size, README, gitignore and possible secrets.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

@@ -1,0 +1,15 @@
+customtkinter
+psutil
+pypresence
+keyboard
+pyperclip
+send2trash
+Pillow
+pyautogui
+pycaw
+comtypes
+rich
+spotipy
+syncedlyrics
+pystray
+winotify

@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Clip Compressor",
+  "entry": "main.py",
+  "description": "Compress MP4 clips using FFmpeg for smaller Discord-friendly files.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

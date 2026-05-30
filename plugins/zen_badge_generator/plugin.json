@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Badge Generator",
+  "entry": "main.py",
+  "description": "Generate shields.io Markdown badges for GitHub README files.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

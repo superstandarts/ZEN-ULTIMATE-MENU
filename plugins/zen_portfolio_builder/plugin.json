@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Portfolio Builder",
+  "entry": "main.py",
+  "description": "Create a simple dark HTML portfolio page.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

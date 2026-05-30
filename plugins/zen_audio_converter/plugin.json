@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Audio Converter",
+  "entry": "main.py",
+  "description": "Convert audio with FFmpeg and create startup sounds.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

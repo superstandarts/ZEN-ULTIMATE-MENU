@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Roblox Tools",
+  "entry": "main.py",
+  "description": "Open Roblox locations, clear cache, close Roblox and inspect logs.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

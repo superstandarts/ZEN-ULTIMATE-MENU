@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Banner Maker",
+  "entry": "main.py",
+  "description": "Create a dark ZEN-style banner PNG for Discord/GitHub.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

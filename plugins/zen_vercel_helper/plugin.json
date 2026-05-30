@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Vercel Helper",
+  "entry": "main.py",
+  "description": "Run common Vercel CLI commands in a selected project folder.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

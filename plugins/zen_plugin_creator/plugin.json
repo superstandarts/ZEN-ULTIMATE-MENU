@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Plugin Creator",
+  "entry": "main.py",
+  "description": "Create new plugin folders with plugin.json, main.py and README.md.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}

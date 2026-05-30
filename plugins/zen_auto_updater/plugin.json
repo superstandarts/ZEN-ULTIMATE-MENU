@@ -1,0 +1,8 @@
+{
+  "name": "ZEN Auto Updater Plugin",
+  "entry": "main.py",
+  "description": "Prepare local backup/update workflow for future releases.",
+  "version": "1.0.0",
+  "author": "Zen / superstandarts",
+  "type": "python"
+}
