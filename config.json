@@ -1,14 +1,33 @@
 {
+  "_quick_settings": {
+    "discord_enabled": true,
+    "discord_client_id": "YOUR_APPLICATION_ID",
+    "spotify_enabled": true,
+    "spotify_client_id": "SPOTIFY_APPLICATION_ID",
+    "spotify_client_secret": "SPOTIFY_APPLICATION_SECRET_ID",
+    "spotify_redirect_uri": "http://127.0.0.1:8888/callback",
+    "theme_mode": "Windows 11 Dark",
+    "theme_accent": "#ff003c",
+    "zenai_provider": "ollama",
+    "zenai_model": "llama3.1",
+    "zenai_ollama_url": "http://127.0.0.1:11434/api/generate"
+  },
   "theme": {
-    "app_name": "ZEN ULTIMATE MENU",
-    "accent": "#ff003c",
-    "background": "#09090d",
-    "panel": "#12121a",
-    "text": "#f2f2f2"
+    "app_name": "ZEN MENU",
+    "accent": "#ffffff",
+    "background": "#020203",
+    "panel": "#0a0b0e",
+    "text": "#f8f8fa",
+    "mode": "Windows 11 Dark",
+    "panel2": "#050609",
+    "line": "#252730",
+    "muted": "#9fa2ad",
+    "button": "#171920",
+    "button_hover": "#252833"
   },
   "discord": {
-    "enabled": false,
-    "client_id": "YOUR_DISCORD_APPLICATION_ID",
+    "enabled": true,
+    "client_id": "YOUR_APPLICATION_CLIENT_ID",
     "update_interval": 8,
     "idle": {
       "details": "ZEN ULTIMATE MENU",
@@ -51,9 +70,9 @@
     "min_update_interval": 5,
     "spotify_priority": true,
     "spotify": {
-      "enabled": false,
-      "client_id": "YOUR_SPOTIFY_CLIENT_ID",
-      "client_secret": "YOUR_SPOTIFY_CLIENT_SECRET",
+      "enabled": true,
+      "client_id": "YOUR_SPOTIFY_APPLICATION_CLIENT_ID",
+      "client_secret": "YOUR_SPOTIFY_APPLICATION_CLIENT_SECRET_ID",
       "redirect_uri": "http://127.0.0.1:8888/callback",
       "show_lyrics": true,
       "fallback_if_no_lyrics": true
@@ -93,5 +112,120 @@
     "source": "%USERPROFILE%\\Pictures\\Screenshots",
     "destination": "%USERPROFILE%\\Pictures\\CRX Screenshots"
   },
-  "notes": []
+  "notes": [],
+  "quick_launcher": [
+    {
+      "name": "GitHub",
+      "type": "url",
+      "value": "https://github.com/superstandarts"
+    },
+    {
+      "name": "Instagram",
+      "type": "url",
+      "value": "https://www.instagram.com/xyphanctinusultrazaliextremus/"
+    },
+    {
+      "name": "Steam",
+      "type": "url",
+      "value": "https://steamcommunity.com/id/hokurary"
+    },
+    {
+      "name": "Roblox",
+      "type": "url",
+      "value": "https://www.roblox.com/users/5583806069/profile"
+    },
+    {
+      "name": "Downloads",
+      "type": "folder",
+      "value": "%USERPROFILE%\\Downloads"
+    },
+    {
+      "name": "Projects",
+      "type": "folder",
+      "value": "%USERPROFILE%\\Documents"
+    }
+  ],
+  "dashboard_widgets": {
+    "show_system": true,
+    "show_quick_launcher": true,
+    "show_music": true,
+    "show_top_processes": true,
+    "show_logs": true
+  },
+  "project_creator": {
+    "default_author": "superstandarts",
+    "default_license": "MIT"
+  },
+  "github_tools": {
+    "default_branch": "main"
+  },
+  "zenai": {
+    "enabled": true,
+    "provider": "ollama",
+    "model": "llama3.1",
+    "ollama_url": "http://127.0.0.1:11434/api/generate",
+    "api_key": "",
+    "system_prompt": "You are ZENAI, the assistant inside ZEN ULTIMATE MENU."
+  },
+  "uninstaller": {
+    "safe_mode": true,
+    "move_leftovers_to_recycle_bin": true,
+    "leftover_roots": [
+      "%APPDATA%",
+      "%LOCALAPPDATA%",
+      "%PROGRAMDATA%",
+      "%USERPROFILE%\\Documents",
+      "%USERPROFILE%\\AppData\\Local\\Temp"
+    ]
+  },
+  "app_version": "1.0.0",
+  "update_url": "",
+  "features": {
+    "app_health_checker": true,
+    "dependency_doctor": true,
+    "safe_mode": true,
+    "mini_terminal": true,
+    "environment_editor": true,
+    "update_checker": true,
+    "changelog_viewer": true,
+    "plugin_system": true,
+    "duplicate_finder": true,
+    "large_file_finder": true,
+    "folder_size_analyzer": true,
+    "fake_terminal_generator": true,
+    "floating_widget": true
+  },
+  "ui_sounds": true,
+  "dashboard": {
+    "mode": "Advanced",
+    "compact": false,
+    "show_banner": true,
+    "show_status_cards": true,
+    "show_zenai_tip": true,
+    "pinned_modules": [
+      "Setup Wizard",
+      "Command",
+      "Global Search",
+      "Soundboard",
+      "Plugin Store",
+      "ZENAI"
+    ]
+  },
+  "appearance": {
+    "skin": "CRX Terminal Fade",
+    "banner": "assets/banners/zen_banner.png",
+    "discord_banner": "assets/banners/discord_banner.png",
+    "sounds": {
+      "click": "assets/sounds/click.wav",
+      "success": "assets/sounds/success.wav",
+      "error": "assets/sounds/error.wav",
+      "notification": "assets/sounds/notification.wav"
+    },
+    "startup_intro": true,
+    "terminal_intro_text": "Thanks for using CRX!"
+  },
+  "usage": {
+    "xp": 0,
+    "modules": {}
+  }
 }
