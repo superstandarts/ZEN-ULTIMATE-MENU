@@ -1,0 +1,97 @@
+{
+  "theme": {
+    "app_name": "ZEN ULTIMATE MENU",
+    "accent": "#ff003c",
+    "background": "#09090d",
+    "panel": "#12121a",
+    "text": "#f2f2f2"
+  },
+  "discord": {
+    "enabled": false,
+    "client_id": "YOUR_DISCORD_APPLICATION_ID",
+    "update_interval": 8,
+    "idle": {
+      "details": "ZEN ULTIMATE MENU",
+      "state": "System online"
+    },
+    "apps": [
+      {
+        "name": "Visual Studio Code",
+        "processes": [
+          "Code.exe"
+        ],
+        "details": "Coding projects",
+        "state": "Building tools"
+      },
+      {
+        "name": "Roblox",
+        "processes": [
+          "RobloxPlayerBeta.exe"
+        ],
+        "details": "Playing Roblox",
+        "state": "Gaming session"
+      },
+      {
+        "name": "Steam",
+        "processes": [
+          "steam.exe"
+        ],
+        "details": "Gaming mode",
+        "state": "Steam running"
+      },
+      {
+        "name": "Chrome",
+        "processes": [
+          "chrome.exe"
+        ],
+        "details": "Browsing",
+        "state": "Searching references"
+      }
+    ],
+    "min_update_interval": 5,
+    "spotify_priority": true,
+    "spotify": {
+      "enabled": false,
+      "client_id": "YOUR_SPOTIFY_CLIENT_ID",
+      "client_secret": "YOUR_SPOTIFY_CLIENT_SECRET",
+      "redirect_uri": "http://127.0.0.1:8888/callback",
+      "show_lyrics": true,
+      "fallback_if_no_lyrics": true
+    }
+  },
+  "hotkeys": [
+    {
+      "combo": "ctrl+alt+g",
+      "action": "open_url",
+      "value": "https://github.com/superstandarts"
+    },
+    {
+      "combo": "ctrl+alt+d",
+      "action": "open_app",
+      "value": "Discord.exe"
+    },
+    {
+      "combo": "ctrl+alt+c",
+      "action": "copy_text",
+      "value": "Discord: 7mey"
+    }
+  ],
+  "text_expander": {
+    ";gh": "https://github.com/superstandarts",
+    ";dc": "7mey",
+    ";steam": "https://steamcommunity.com/id/hokurary",
+    ";rbx": "https://www.roblox.com/users/5583806069/profile"
+  },
+  "game_session": {
+    "apps_to_open": [],
+    "apps_to_close": [
+      "chrome.exe"
+    ],
+    "folders_to_open": []
+  },
+  "screenshot_organizer": {
+    "source": "%USERPROFILE%\\Pictures\\Screenshots",
+    "destination": "%USERPROFILE%\\Pictures\\CRX Screenshots"
+  },
+  "notes": []
+}

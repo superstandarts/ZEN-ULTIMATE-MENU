@@ -1,0 +1,37 @@
+ZEN ULTIMATE MENU - QUICK GUIDE
+===============================
+
+Requirements:
+- Windows 10 or Windows 11
+- Keep config.json in the same folder as the .exe
+- Discord desktop app open for Discord Auto Status
+- Spotify Developer credentials only if you want Spotify music sync
+- Run as Administrator if hotkeys, text expander, or auto-clicker do not work
+
+Discord + Spotify:
+- Set discord.client_id in config.json
+- To enable Spotify sync, set discord.spotify.enabled to true
+- Add your Spotify client_id and client_secret
+- Redirect URI must be: http://127.0.0.1:8888/callback
+
+Folder structure:
+ZEN ULTIMATE MENU/
+├─ ZEN ULTIMATE MENU.exe
+├─ config.json
+└─ README.txt
+
+If Spotify is playing:
+- Discord shows the current song
+- If synced lyrics are found, it shows the current lyric line
+- If lyrics are not found, it shows the song timer
+
+If Spotify is not playing:
+- Discord Auto Status uses app detection
+
+Contact:
+Discord: 7mey
+GitHub: https://github.com/superstandarts
+
+Use responsibly.
+
+If any change is made to the code, the responsibility for it its from the user.
