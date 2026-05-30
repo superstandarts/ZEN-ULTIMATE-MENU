@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🔴 ZEN ULTIMATE MENU
+# ZEN MENU
 
-### Windows QOL toolbox with cleanup, automation, gaming tools, Discord status and creator utilities.
+### A dark Windows utility hub with plugins, automation, local AI, media tools, system tools, dashboard widgets, themes, soundboard and developer utilities.
 
-![Python](https://img.shields.io/badge/Python-3.10+-red?style=for-the-badge&logo=python&logoColor=white)
-![Platform](https://img.shields.io/badge/platform-Windows-black?style=for-the-badge&logo=windows&logoColor=white)
-![Status](https://img.shields.io/badge/status-active-red?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.10+-white?style=for-the-badge&logo=python&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-10%2F11-black?style=for-the-badge&logo=windows)
+![Status](https://img.shields.io/badge/status-active-white?style=for-the-badge)
 
 </div>
 
@@ -14,70 +14,61 @@
 
 ## About
 
-**ZEN ULTIMATE MENU** is a desktop toolbox made for Windows.  
-It combines multiple QOL tools in one red/black interface.
+**ZEN MENU** is a Windows desktop utility dashboard made with Python and CustomTkinter.
 
-## Included modules
+It includes tools for:
 
-- Junk cleaner
-- Screenshot organizer
-- Smart file search
-- Discord auto status
-- Spotify currently-playing sync for Discord status
-- Synced lyrics if available, timer fallback if not
-- Hotkeys
-- Text expander
-- Safe auto clicker
-- App volume list
-- Game session manager
-- README generator
-- Desktop notes overlay
-- Credits/contact page
+- Cleaning junk files
+- Organizing screenshots and files
+- Managing processes
+- Building `.exe` files
+- Discord / Spotify Rich Presence
+- Local ZENAI with Ollama
+- Plugins
+- FFmpeg converters
+- Soundboard
+- GitHub tools
+- Project creation
+- Theme and appearance customization
+- Startup apps
+- Windows repair tools
+- Floating widgets
+- Game overlay
+- Macro builder
+- Visual flow builder
+- Text tools
+- Config profiles
+- System health checks
 
-## Contact
+---
 
-- Discord: `7mey`
-- GitHub: https://github.com/superstandarts
-- Instagram: https://www.instagram.com/xyphanctinusultrazaliextremus/
-- Steam: https://steamcommunity.com/id/hokurary
-- Roblox: https://www.roblox.com/users/5583806069/profile
+## Important Folder Structure
 
-## Discord + Spotify setup
-
-In `config.json`, set:
-
-```json
-"discord": {
-  "client_id": "YOUR_DISCORD_APPLICATION_ID",
-  "spotify": {
-    "enabled": true,
-    "client_id": "YOUR_SPOTIFY_CLIENT_ID",
-    "client_secret": "YOUR_SPOTIFY_CLIENT_SECRET",
-    "redirect_uri": "http://127.0.0.1:8888/callback"
-  }
-}
-```
-
-If Spotify is playing, the Discord status shows the current song and synced lyrics.  
-If no lyrics are found, it shows the music timer.  
-If Spotify is not playing, the app detector takes over.
-
-## Run
-
-```bash
-pip install -r requirements.txt
-python main.py
-```
-
-## Manual EXE build
-
-```bash
-python -m pip install pyinstaller
-python -m PyInstaller --noconfirm --clean --onefile --windowed --name "ZEN ULTIMATE MENU" --add-data "config.json;." --add-data "modules;modules" main.py
-```
-
-The output will be inside:
+Keep these files/folders together:
 
 ```txt
-dist/ZEN ULTIMATE MENU.exe
-```
+ZEN MENU/
+├─ main.py
+├─ config.json
+├─ requirements.txt
+├─ install_requirements.bat
+├─ build_exe.bat
+├─ README.md
+├─ README.txt
+├─ CHANGELOG.md
+├─ assets/
+│  ├─ icons/
+│  │  └─ app.ico
+│  ├─ banners/
+│  │  ├─ zen_banner.png
+│  │  └─ discord_banner.png
+│  ├─ images/
+│  │  └─ zen.png
+│  └─ sounds/
+│     ├─ startup.wav
+│     ├─ click.wav
+│     ├─ success.wav
+│     ├─ error.wav
+│     └─ notification.wav
+├─ modules/
+└─ plugins/
